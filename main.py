@@ -2,9 +2,9 @@ import os
 import shutil
 
 # Calea către folderul din care vrei să extragi fișierele
-source_folder = 'C:/Users/tahio/Desktop/testab'
+source_folder = "input_folder"
   # ← schimbă cu calea ta reală
-destination_folder = 'C:/Users/tahio/Desktop/Portofoliu Python/file_organizer/examples'
+destination_folder = "examples/jpg"
 
 
 # Creează folderul de destinație dacă nu există
