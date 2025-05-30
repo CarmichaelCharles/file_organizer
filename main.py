@@ -13,7 +13,7 @@ if not os.path.exists(destination_folder):
 
 # Parcurge toate fișierele din folderul sursă
 for filename in os.listdir(source_folder):
-    if filename.lower().endswith('.mp3'):
+    if filename.lower().endswith('.jpg'):
         source_path = os.path.join(source_folder, filename)
         destination_path = os.path.join(destination_folder, filename)
 
